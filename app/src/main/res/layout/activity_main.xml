@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="162dp"
+        android:ems="10"
+        android:hint="Enter Brand"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="99dp"
+        android:text="View Cars"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnUpload" />
+
+    <EditText
+        android:id="@+id/edtModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Enter Model"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/edtBrand"
+        app:layout_constraintTop_toBottomOf="@+id/edtBrand" />
+
+    <EditText
+        android:id="@+id/edtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="Enter Price"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btnImage"
+        app:layout_constraintStart_toStartOf="@+id/edtModel" />
+
+    <Button
+        android:id="@+id/btnImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="23dp"
+        android:text="Upload Photo"
+        app:layout_constraintBottom_toTopOf="@+id/btnUpload"
+        app:layout_constraintStart_toStartOf="@+id/btnUpload" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="51dp"
+        android:text="Upload Car Details"
+        app:layout_constraintBottom_toTopOf="@+id/btnView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

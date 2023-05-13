@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1054929691356",
+    "project_id": "realtime-firebase-42938",
+    "storage_bucket": "realtime-firebase-42938.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054929691356:android:dcf5a3786fa60258990a19",
+        "android_client_info": {
+          "package_name": "com.example.firebase_swabir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054929691356-g6jd5as5f9lub553g4frn52hbospp08r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKuK1eKTuT7RBaMMFo4UeYqToEPelFm4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054929691356-g6jd5as5f9lub553g4frn52hbospp08r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
